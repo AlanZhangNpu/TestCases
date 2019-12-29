@@ -1,0 +1,35 @@
+Language="VBSCRIPT"
+
+Sub CATMain()  
+    Set documents0    = CATIA.Documents
+    Set partDocument0 = documents0.Open("E:\\Working_ON\\Trans\\example.3_2_interstage\\with_solid_new\\Initial\\Catia\\Interstage_Hole.CATPart")   
+    Set part0         = partDocument0.Part
+    Set parameters0   = part0.Parameters       
+
+    Set Beam_H      =  parameters0.Item("Interstage_Hole\Beam\H")
+    Set Beam_C1     =  parameters0.Item("Interstage_Hole\Beam\C1")  
+    Set Beam_C2     =  parameters0.Item("Interstage_Hole\Beam\C2")
+    Set Hole_C3     =  parameters0.Item("Interstage_Hole\Hole\C3") 
+    Set Frame_C     =  parameters0.Item("Interstage_Hole\Frame\C")   
+    Set Ellipse_L_A =  parameters0.Item("Interstage_Hole\Ellipse_L\A") 
+    Set Ellipse_L_B =  parameters0.Item("Interstage_Hole\Ellipse_L\B") 
+
+            
+    Beam_H.Value	=	20.70950716
+    Beam_C1.Value	=	7.240779759
+    Beam_C2.Value	=	3.166099955
+    Hole_C3.Value	=	12.25133408
+    Frame_C.Value	=	7.757435704
+    Ellipse_L_A.Value	=	163.8970404
+    Ellipse_L_B.Value	=	151.6304059
+
+
+    part0.Update 
+    partDocument0.SaveAs "E:\\Working_ON\\Trans\\example.3_2_interstage\\with_solid_new\\Initial\\Catia\\Interstage_Hole.New.CATPart"
+    partDocument0.close
+	
+  
+End Sub
+
+
+

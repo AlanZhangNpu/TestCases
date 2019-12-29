@@ -1,0 +1,130 @@
+
+E:\Work\Test2\sbao-fcm-interstage2-mpi\sbao-fcm-interstage2-mpi\example\newDB\0714>E:
+
+E:\Work\Test2\sbao-fcm-interstage2-mpi\sbao-fcm-interstage2-mpi\example\newDB\0714>cd "E:\Work\Test2\sbao-fcm-interstage2-mpi\sbao-fcm-interstage2-mpi\example\newDB\0714\sample.714\Catia" 
+
+E:\Work\Test2\sbao-fcm-interstage2-mpi\sbao-fcm-interstage2-mpi\example\newDB\0714\sample.714\Catia>if exist "E:\Work\Test2\sbao-fcm-interstage2-mpi\sbao-fcm-interstage2-mpi\example\newDB\0714\sample.714\Hypermesh\Interstage_Hole.New.CATPart" del "E:\Work\Test2\sbao-fcm-interstage2-mpi\sbao-fcm-interstage2-mpi\example\newDB\0714\sample.714\Hypermesh\Interstage_Hole.New.CATPart" 
+
+E:\Work\Test2\sbao-fcm-interstage2-mpi\sbao-fcm-interstage2-mpi\example\newDB\0714\sample.714\Catia>"C:/Program Files (x86)/Dassault Systemes/B19/intel_a/code/bin/CNEXT.exe" -batch -macro Interstage_Project.new.catvbs 
+
+E:\Work\Test2\sbao-fcm-interstage2-mpi\sbao-fcm-interstage2-mpi\example\newDB\0714>E:
+
+E:\Work\Test2\sbao-fcm-interstage2-mpi\sbao-fcm-interstage2-mpi\example\newDB\0714>cd "E:\Work\Test2\sbao-fcm-interstage2-mpi\sbao-fcm-interstage2-mpi\example\newDB\0714\sample.714\Hypermesh" 
+
+E:\Work\Test2\sbao-fcm-interstage2-mpi\sbao-fcm-interstage2-mpi\example\newDB\0714\sample.714\Hypermesh>set nex=0 
+
+E:\Work\Test2\sbao-fcm-interstage2-mpi\sbao-fcm-interstage2-mpi\example\newDB\0714\sample.714\Hypermesh>if exist All_Aluminum_End.32.new.hm del All_Aluminum_End.32.new.hm 
+
+E:\Work\Test2\sbao-fcm-interstage2-mpi\sbao-fcm-interstage2-mpi\example\newDB\0714\sample.714\Hypermesh>if exist Mass.dat del Mass.dat 
+
+E:\Work\Test2\sbao-fcm-interstage2-mpi\sbao-fcm-interstage2-mpi\example\newDB\0714\sample.714\Hypermesh>if exist "E:\Work\Test2\sbao-fcm-interstage2-mpi\sbao-fcm-interstage2-mpi\example\newDB\0714\sample.714\Nastran\Interstage.bdf" del "E:\Work\Test2\sbao-fcm-interstage2-mpi\sbao-fcm-interstage2-mpi\example\newDB\0714\sample.714\Nastran\Interstage.bdf" 
+
+E:\Work\Test2\sbao-fcm-interstage2-mpi\sbao-fcm-interstage2-mpi\example\newDB\0714\sample.714\Hypermesh>"C:/Program Files/Altair/14.0/hm/bin/win64/hmbatch.exe" -tcl All_Aluminum.new.tcl 
+Altair HyperMesh v14.0.0.88
+ Copyright (C)1990-2016 - Altair Engineering, Inc.  All Rights Reserved.
+Contains trade secrets of Altair Engineering, Inc.  Copyright notice does not
+imply publication.  Decompilation or disassembly of this software is strictly
+prohibited.
+End of command file - terminating.
+HM exiting with code 1
+
+E:\Work\Test2\sbao-fcm-interstage2-mpi\sbao-fcm-interstage2-mpi\example\newDB\0714\sample.714\Hypermesh>if exist "E:\Work\Test2\sbao-fcm-interstage2-mpi\sbao-fcm-interstage2-mpi\example\newDB\0714\sample.714\Nastran\Interstage.bdf" exit /b 0 
+
+E:\Work\Test2\sbao-fcm-interstage2-mpi\sbao-fcm-interstage2-mpi\example\newDB\0714>E:
+
+E:\Work\Test2\sbao-fcm-interstage2-mpi\sbao-fcm-interstage2-mpi\example\newDB\0714>cd "E:\Work\Test2\sbao-fcm-interstage2-mpi\sbao-fcm-interstage2-mpi\example\newDB\0714\sample.714\Hypermesh" 
+
+E:\Work\Test2\sbao-fcm-interstage2-mpi\sbao-fcm-interstage2-mpi\example\newDB\0714\sample.714\Hypermesh>if exist Mass.dat del Mass.dat 
+
+E:\Work\Test2\sbao-fcm-interstage2-mpi\sbao-fcm-interstage2-mpi\example\newDB\0714\sample.714\Hypermesh>"C:/Program Files/Altair/14.0/hm/bin/win64/hmbatch.exe" -tcl All_Aluminum.Mass.new.tcl 
+Altair HyperMesh v14.0.0.88
+ Copyright (C)1990-2016 - Altair Engineering, Inc.  All Rights Reserved.
+Contains trade secrets of Altair Engineering, Inc.  Copyright notice does not
+imply publication.  Decompilation or disassembly of this software is strictly
+prohibited.
+End of command file - terminating.
+HM exiting with code 1
+
+E:\Work\Test2\sbao-fcm-interstage2-mpi\sbao-fcm-interstage2-mpi\example\newDB\0714>E:
+
+E:\Work\Test2\sbao-fcm-interstage2-mpi\sbao-fcm-interstage2-mpi\example\newDB\0714>cd "E:\Work\Test2\sbao-fcm-interstage2-mpi\sbao-fcm-interstage2-mpi\example\newDB\0714\sample.714\Nastran" 
+
+E:\Work\Test2\sbao-fcm-interstage2-mpi\sbao-fcm-interstage2-mpi\example\newDB\0714\sample.714\Nastran>"C:/MSC.Software/MSC_Nastran/20122/bin/nastran.exe" Interstage.bdf notify=no news=no old=no scratch=yes 
+MSC.Nastran V2012.2 (Intel Windows 7 Ultimate 6.1 7601) Mon Oct 28 20:15:06 2019
+MSC.Nastran beginning job interstage.
+MSC.Nastran started  Mon Oct 28 20:15:07 中国标准时间 2019
+MSC.Nastran finished Mon Oct 28 20:16:43 中国标准时间 2019
+{'Circle_Beam_C2': '3.023261', 'Beam_H': '10.040890', 'Frame_C': '3.109640', 'Shell_T': '3.011945', 'Axial_Beam_C1': '3.022771', 'Ellipse_B': '219.993491', 'Ellipse_A': '198.077018', 'Hole_Frame_C': '3.723725'}
+('Ellipse_L_A =', 198.077018)
+('Ellipse_L_B =', 219.993491)
+('Ellipse_R_A =', 198.077018)
+('Ellipse_R_B =', 219.993491)
+('Ellipse_U_A =', 198.077018)
+('Ellipse_U_B =', 219.993491)
+('Ellipse_D_A =', 198.077018)
+('Ellipse_D_B =', 219.993491)
+('Axial_Beam_C1 =', 3.022771)
+('Circle_Beam_C2 =', 3.023261)
+('Frame_C =', 3.10964)
+('Hole_Frame_C =', 3.723725)
+('Beam_H =', 10.04089)
+('Shell_T=', 3.011945)
+('ply_thickness =', 0.11751162)
+('ply_theta0 =', 3.494923213)
+('ply_theta_45 =', -45.63459654)
+('ply_theta45 =', 45.63459654)
+('ply_theta90 =', 85.87027719)
+('interlamstren =', 96.52497549)
+('IM7_8552_E1 =', 171335.05289999998)
+('IM7_8552_E2 =', 10288.21511)
+('IM7_8552_nu12 =', 0.35451646)
+('IM7_8552_G12 =', 5180.1611840000005)
+('IM7_8552_RHO =', 1.59e-09)
+('IM7_8552_Xt =', 2011.815097)
+('IM7_8552_Xc =', 1165.041057)
+('IM7_8552_Yt =', 58.87152957)
+('IM7_8552_Yc =', 191.3223553)
+('IM7_8552_S =', 96.52497549)
+('Aluminum_ME =', 68646.0)
+('Aluminum_NU =', 0.3)
+('Aluminum_RHO =', 2.7e-09)
+DEBUG:   op2.py:547                   combine=True
+DEBUG:   op2.py:548                   -------- reading op2 with read_mode=1 (array sizing) --------
+INFO:    op2_scalar.py:1291           op2_filename = 'E:\\Work\\Test2\\sbao-fcm-interstage2-mpi\\sbao-fcm-interstage2-mpi\\example\\newDB\\0714\\sample.714\\Nastran\\interstage.op2'
+DEBUG:   op2_scalar.py:1537             table_name='PVT0'
+DEBUG:   op2_scalar.py:1537             table_name='CSTM'
+DEBUG:   op2_scalar.py:1537             table_name='GPL'
+DEBUG:   minor_tables.py:287          table_name = 'GPL'
+DEBUG:   op2_scalar.py:1537             table_name='GPDT'
+DEBUG:   op2_scalar.py:1537             table_name='EPT'
+DEBUG:   op2_scalar.py:1537             table_name='MPT'
+DEBUG:   op2_scalar.py:1537             table_name='GEOM2'
+DEBUG:   op2_scalar.py:1537             table_name='GEOM3'
+DEBUG:   op2_scalar.py:1537             table_name='GEOM4'
+DEBUG:   op2_scalar.py:1537             table_name='GEOM1'
+DEBUG:   op2_scalar.py:1537             table_name='BGPDT'
+DEBUG:   op2_scalar.py:1537             table_name='CASECC'
+DEBUG:   op2_scalar.py:1537             table_name='BOUGV1'
+DEBUG:   op2_scalar.py:1537             table_name='OES1'
+DEBUG:   op2.py:560                   -------- reading op2 with read_mode=2 (array filling) --------
+DEBUG:   op2_scalar.py:1537             table_name='PVT0'
+DEBUG:   op2_scalar.py:1537             table_name='CSTM'
+DEBUG:   op2_scalar.py:1537             table_name='GPL'
+DEBUG:   minor_tables.py:287          table_name = 'GPL'
+DEBUG:   op2_scalar.py:1537             table_name='GPDT'
+DEBUG:   op2_scalar.py:1537             table_name='EPT'
+DEBUG:   op2_scalar.py:1537             table_name='MPT'
+DEBUG:   op2_scalar.py:1537             table_name='GEOM2'
+DEBUG:   op2_scalar.py:1537             table_name='GEOM3'
+DEBUG:   op2_scalar.py:1537             table_name='GEOM4'
+DEBUG:   op2_scalar.py:1537             table_name='GEOM1'
+DEBUG:   op2_scalar.py:1537             table_name='BGPDT'
+DEBUG:   op2_scalar.py:1537             table_name='CASECC'
+DEBUG:   op2_scalar.py:1537             table_name='BOUGV1'
+DEBUG:   op2_scalar.py:1537             table_name='OES1'
+DEBUG:   op2.py:750                   combine_results
+DEBUG:   op2.py:568                   finished reading op2
+170543
+0.0824653
+{'DISP': -0.5866097, 'N_CTETRA': 29551, 'MAX_VON_MISES': 311.2393798828125, 'N_CTRIA3': 216408.0, 'MAX_S_MAX': 0.0, 'TSAI_WU': -100}
+('Total cost', 231.489000082016)

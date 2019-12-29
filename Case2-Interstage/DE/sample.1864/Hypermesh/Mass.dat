@@ -1,0 +1,11 @@
+
+Center of Gravity
+Component Name                 ID      MASS             X             Y             Z
+RBE3_ELE                        1       0.0           N/A           N/A           N/A  
+Beams_Solid                     2  0.007358  -2.63769E-02  -3.06268E-02  -6.31754E-03
+Cylinder_shell                  3   0.03851  -5.41279E-05  7.056695E-05  1.131583E-05
+Cylinder_shell_i                4  0.038128  1.408933E-02  2.580130E-03  -8.05005E-04
+
+Number of Components: 4
+Mass of Model: 0.0839953
+Center of Gravity for Model --  X: 4.060244E-03  Y: -1.47920E-03  Z: -9.13610E-04

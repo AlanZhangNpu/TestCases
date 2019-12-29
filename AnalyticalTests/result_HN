@@ -1,0 +1,71 @@
+::::::::::::::
+HN-EI/output_f
+::::::::::::::
+
+ Number of cycles , 30
+ Ave. is :  3.436667e+01 
+
+ Value , 30
+ Ave. is : -3.168708e+00 
+
+ Length of the DB , 30
+ Ave. is :  7.173333e+01 
+
+ Variance of Y is  2.966153e-02
+ Theoretical variance of Y is  5.328272e-02
+
+ Max. Variance of Y is  2.917204e-01
+ Min. Variance of Y is  1.679717e-04
+
+ Max. Optimum is -2.628597e+00, index of maximum is    28
+ Min. Optimum is -3.321686e+00, index of minimum is    13
+ Mean Optimum is -3.193741e+00
+
+
+::::::::::::::
+HN-fcm/output_f
+::::::::::::::
+
+ Number of cycles , 30
+ Ave. is :  2.626667e+01 
+
+ Value , 30
+ Ave. is : -3.268989e+00 
+
+ Length of the DB , 30
+ Ave. is :  1.127333e+02 
+
+ Variance of Y is  3.723510e-03
+ Theoretical variance of Y is  6.576228e-03
+
+ Max. Variance of Y is  6.608370e-03
+ Min. Variance of Y is  2.808819e-03
+
+ Max. Optimum is -3.187697e+00, index of maximum is    19
+ Min. Optimum is -3.322365e+00, index of minimum is    17
+ Mean Optimum is -3.322155e+00
+
+
+::::::::::::::
+HN-MPS/output_f
+::::::::::::::
+
+ Number of cycles , 30
+ Ave. is :  1.487000e+02 
+
+ Value , 30
+ Ave. is : -3.165608e+00 
+
+ Length of the DB , 30
+ Ave. is :  6.840000e+01 
+
+ Variance of Y is  3.878320e-02
+ Theoretical variance of Y is  6.336702e-02
+
+ Max. Variance of Y is  2.879214e-01
+ Min. Variance of Y is  3.315856e-04
+
+ Max. Optimum is -2.629025e+00, index of maximum is    30
+ Min. Optimum is -3.322361e+00, index of minimum is    21
+ Mean Optimum is -3.189389e+00
+

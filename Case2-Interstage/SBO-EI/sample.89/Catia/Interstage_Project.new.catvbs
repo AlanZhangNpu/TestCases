@@ -1,0 +1,35 @@
+Language="VBSCRIPT"
+
+Sub CATMain()  
+    Set documents0    = CATIA.Documents
+    Set partDocument0 = documents0.Open("E:\\Work\\Test2\\sbao-fcm-interstage2-mpi\\sbao-fcm-interstage2-mpi\\example\\newDB\\0089\\sample.89\\Catia\\Interstage_Hole.CATPart")
+    Set part0         = partDocument0.Part
+    Set parameters0   = part0.Parameters       
+
+    Set Beam_H      =  parameters0.Item("Interstage_Hole\Beam\H")
+    Set Beam_C1     =  parameters0.Item("Interstage_Hole\Beam\C1")  
+    Set Beam_C2     =  parameters0.Item("Interstage_Hole\Beam\C2")
+    Set Hole_C3     =  parameters0.Item("Interstage_Hole\Hole\C3") 
+    Set Frame_C     =  parameters0.Item("Interstage_Hole\Frame\C")   
+    Set Ellipse_L_A =  parameters0.Item("Interstage_Hole\Ellipse_L\A") 
+    Set Ellipse_L_B =  parameters0.Item("Interstage_Hole\Ellipse_L\B") 
+
+            
+    Beam_H.Value = 10.0000000000000000
+    Beam_C1.Value = 3.0000000000000000
+    Beam_C2.Value = 3.0000000000000000
+    Hole_C3.Value = 3.3162500000000001
+    Frame_C.Value = 3.0000000000000000
+    Ellipse_L_A.Value = 150.3565570000000093
+    Ellipse_L_B.Value = 220.0000000000000000
+
+
+    part0.Update 
+    partDocument0.SaveAs "E:\\Work\\Test2\\sbao-fcm-interstage2-mpi\\sbao-fcm-interstage2-mpi\\example\\newDB\\0089\\sample.89\\Hypermesh\\Interstage_Hole.New.CATPart"
+    partDocument0.close
+	
+  
+End Sub
+
+
+

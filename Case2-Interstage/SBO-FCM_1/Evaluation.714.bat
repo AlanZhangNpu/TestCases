@@ -1,0 +1,3 @@
+E:
+cd E:\Work\Test2\sbao-fcm-interstage2-mpi\sbao-fcm-interstage2-mpi\example\newDB\0714
+E:\Work\Test2\sbao-fcm-interstage2-mpi\sbao-fcm-interstage2-mpi\source\cad\MSC_dir_2\evaluation_bb.py E:\Work\Test2\sbao-fcm-interstage2-mpi\sbao-fcm-interstage2-mpi\example\newDB\0714\params.in.714 E:\Work\Test2\sbao-fcm-interstage2-mpi\sbao-fcm-interstage2-mpi\example\newDB\0714\results.out.714 E:\Work\Test2\sbao-fcm-interstage2-mpi\sbao-fcm-interstage2-mpi\example\newDB\0714\sample.1.over.log E:\Work\Test2\sbao-fcm-interstage2-mpi\sbao-fcm-interstage2-mpi\example\newDB > E:\Work\Test2\sbao-fcm-interstage2-mpi\sbao-fcm-interstage2-mpi\example\newDB\0714\eval.714.log

@@ -1,0 +1,8 @@
+Shell_T = 7.000000
+Beam_H = 15.000000
+Axial_Beam_C1 = 9.500000
+Circle_Beam_C2 = 9.500000
+Hole_Frame_C = 9.500000
+Frame_C = 9.500000
+Ellipse_A = 185.000000
+Ellipse_B = 185.000000

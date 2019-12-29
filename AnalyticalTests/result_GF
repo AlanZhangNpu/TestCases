@@ -1,0 +1,70 @@
+::::::::::::::
+GF-EI/output_f
+::::::::::::::
+
+ Number of cycles , 30
+ Ave. is :  2.866333e+02 
+
+ Value , 30
+ Ave. is :  1.281885e-02 
+
+ Length of the DB , 30
+ Ave. is :  5.518333e+02 
+
+ Variance of Y is  6.097153e-04
+ Theoretical variance of Y is  7.740383e-04
+
+ Max. Variance of Y is  1.231684e-02
+ Min. Variance of Y is  8.216101e-07
+
+ Max. Optimum is  1.238001e-01, index of maximum is    10
+ Min. Optimum is  4.162022e-06, index of minimum is    29
+ Mean Optimum is  3.511017e-03
+
+
+::::::::::::::
+GF-fcm/output_f
+::::::::::::::
+ Number of cycles , 29
+ Ave. is :  1.768966e+02 
+
+ Value , 29
+ Ave. is :  1.360782e-02 
+
+ Length of the DB , 29
+ Ave. is :  6.727241e+02 
+
+ Variance of Y is  6.226044e-04
+ Theoretical variance of Y is  8.077772e-04
+
+ Max. Variance of Y is  9.835983e-03
+ Min. Variance of Y is  1.228602e-07
+
+ Max. Optimum is  1.127843e-01, index of maximum is    10
+ Min. Optimum is  2.735854e-05, index of minimum is    22
+ Mean Optimum is  3.227764e-03
+ 
+
+::::::::::::::
+GF-MPS/output_f
+::::::::::::::
+
+ Number of cycles , 30
+ Ave. is :  3.649667e+02 
+
+ Value , 30
+ Ave. is :  4.924242e-01 
+
+ Length of the DB , 30
+ Ave. is :  6.175000e+02 
+
+ Variance of Y is  2.324289e-01
+ Theoretical variance of Y is  4.749105e-01
+
+ Max. Variance of Y is  1.269031e+00
+ Min. Variance of Y is  5.843435e-02
+
+ Max. Optimum is  1.618937e+00, index of maximum is     9
+ Min. Optimum is  4.549919e-04, index of minimum is     2
+ Mean Optimum is  2.506922e-01
+
